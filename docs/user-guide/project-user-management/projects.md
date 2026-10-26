@@ -37,7 +37,8 @@ The projects list displays all projects you have access to. For each project, th
 - **Assignments** — entity counts for linked items (users, assistants, workflows, data sources,
   and other resources), shown as icons with numbers
 - **Users** — total number of members in the project
-- **Actions** — row-level actions: **View**, **Edit**, and **Delete**
+- **Actions** — row-level actions: **View**, **Edit**, **Delete**, and **Change ownership**
+  (available to Platform Admins and Project Admins; not shown for personal projects)
 
 ![Projects list](./images/projects-list.png)
 
@@ -109,6 +110,30 @@ and an error will list the blocking entities.
 2. Confirm the deletion.
 
 The project is removed from the list immediately.
+
+## Change Project Ownership
+
+Platform Admins and Project Admins can transfer ownership of any project to another registered
+user. Personal projects cannot have their ownership changed.
+
+1. Click the **⋮ (Actions)** menu on the project row and select **Change ownership**.
+
+![Project actions menu with Change ownership option highlighted](./images/project-change-ownership-menu.png)
+
+2. In the **Change Ownership** dialog, the current owner is displayed.
+3. In the **New owner** field, type to search by name or email, then select the target user
+   from the results.
+
+![Change Ownership dialog with new owner search open](./images/change-ownership-dialog.png)
+
+4. Click **Confirm**.
+
+A confirmation message appears and the projects list refreshes automatically to reflect the
+updated owner.
+
+:::note
+The **Change ownership** option does not appear in the actions menu for personal projects.
+:::
 
 ## Managing Project Members
 
